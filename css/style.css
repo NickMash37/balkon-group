@@ -4,4 +4,27 @@
   box-sizing: border-box;
 }
 
+.header {
+  width: 1200px;
+  margin: 1.5em auto;
+  display: flex;
+}
+.header-block {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.header-block__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+}
+.header-block__menu li {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=style.css.map */
