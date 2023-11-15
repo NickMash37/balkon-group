@@ -189,4 +189,31 @@ a:active {
   width: 80%;
 }
 
+.item-cost {
+  color: orange;
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 1.7em;
+}
+
+.item-desc {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.item-desc p {
+  width: 80%;
+  margin: 0.5em auto;
+  text-align: center;
+}
+.item-desc p:after {
+  content: "";
+  margin-top: 0.5em;
+  height: 0.5px;
+  width: 100%;
+  background-color: gray;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
