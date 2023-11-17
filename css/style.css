@@ -314,32 +314,4 @@ a:active {
   text-align: left;
 }
 
-.prices {
-  width: 1200px;
-  margin: 2em auto;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-.prices h2 {
-  font-size: 1em;
-  letter-spacing: 0.2em;
-  color: #f58319;
-}
-.prices h3 {
-  margin-top: 1em;
-  text-transform: uppercase;
-  font-size: 2.8em;
-}
-.prices h3:after {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: #f58319;
-  width: 10%;
-  margin: 1em 0 100%;
-  top: 0;
-  left: 0;
-}
-
 /*# sourceMappingURL=style.css.map */
