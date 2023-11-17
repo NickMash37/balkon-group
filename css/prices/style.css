@@ -136,6 +136,8 @@ a:active {
   width: 100%;
   padding: 1em 2em;
   border: 1px solid black;
+  cursor: default;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
