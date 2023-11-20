@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+$mainColor: #f58319;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+    &::selection {
+        background-color: $mainColor;
+    }
+}
+
+span {
+    cursor: default;
+}
+
+a {
+    cursor: pointer;
+    text-align: none;
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited,
+a:active {
+    cursor: pointer;
+    color: inherit;
+}
+
+// Header section
+
+.header {
+    width: 1200px;
+    margin: 1.5em auto;
+    display: flex;
+
+    &-block {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 50px;
+        align-items: center;
+
+        &__menu {
+            display: flex;
+            flex-direction: row;
+            gap: 2em;
+            align-items: center;
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.block-menu__item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 0.4em;
+
+    i {
+        font-size: 1.2em;
+        color: green;
+    }
+
+    span {
+        font-size: 0.8em;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+
+    a:hover {
+        color: $mainColor;
+        transition: .2s all ease-in;
+    }
+
+    li {
+        cursor: default;
+    }
+}
+
+// Navigation section
+
+.navigation {
+    width: 100%;
+    background-color: #000;
+
+    &-menu {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2em 5em;
+
+        a {
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            li {
+                list-style-type: none;
+
+                &:hover {
+                    color: $mainColor;
+                    transition: .2s all ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+// Investment section
+
+.invest {
+    width: 1200px;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+    gap: 3em;
+
+    &-img {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+}

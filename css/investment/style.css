@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+*::selection {
+  background-color: #f58319;
+}
+
+span {
+  cursor: default;
+}
+
+a {
+  cursor: pointer;
+  text-align: none;
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited,
+a:active {
+  cursor: pointer;
+  color: inherit;
+}
+
+.header {
+  width: 1200px;
+  margin: 1.5em auto;
+  display: flex;
+}
+.header-block {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+  align-items: center;
+}
+.header-block__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+}
+.header-block__menu li {
+  list-style-type: none;
+}
+
+.block-menu__item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  gap: 0.4em;
+}
+.block-menu__item i {
+  font-size: 1.2em;
+  color: green;
+}
+.block-menu__item span {
+  font-size: 0.8em;
+}
+.block-menu__item a {
+  font-size: 0.8em;
+}
+.block-menu__item a:hover {
+  color: #f58319;
+  transition: 0.2s all ease-in;
+}
+.block-menu__item li {
+  cursor: default;
+}
+
+.navigation {
+  width: 100%;
+  background-color: #000;
+}
+.navigation-menu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em 5em;
+}
+.navigation-menu a {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navigation-menu a li {
+  list-style-type: none;
+}
+.navigation-menu a li:hover {
+  color: #f58319;
+  transition: 0.2s all ease-in-out;
+}
+
+.invest {
+  width: 1200px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 3em;
+}
+.invest-img {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.invest-img img {
+  width: 100%;
+}
+.invest-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.invest-text h2 {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
