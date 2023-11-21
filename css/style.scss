@@ -184,7 +184,7 @@ a:active {
 
 .prices {
     width: 1200px;
-    margin: 20em auto 5em;
+    margin: 11em auto 5em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -342,7 +342,7 @@ a:active {
 .stages {
     width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 4em auto;
 
     &-item {
