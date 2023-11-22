@@ -41,13 +41,17 @@ a:active {
   align-items: center;
 }
 .header-block__menu {
+  width: 60%;
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  justify-content: space-around;
   align-items: center;
 }
 .header-block__menu li {
   list-style-type: none;
+}
+.header .burger {
+  display: none;
 }
 
 .block-menu__item {
@@ -99,6 +103,10 @@ a:active {
   transition: 0.2s all ease-in-out;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .services-background {
   width: 100%;
   overflow: hidden;
@@ -124,9 +132,7 @@ a:active {
   width: 33%;
   text-align: center;
   gap: 1.2em;
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border: 1px solid #fff;
 }
 .services-item i {
   color: #fff;
@@ -312,6 +318,100 @@ a:active {
 .stages-item__desc p {
   margin-top: 2em;
   text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+    overflow-x: hidden;
+  }
+  .header {
+    width: 100%;
+    height: 3em;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0;
+    height: 4em;
+    padding: 2em auto;
+  }
+  .header-block__menu {
+    display: none;
+  }
+  .header .burger {
+    display: block;
+  }
+  .header .burger i {
+    font-size: 2em;
+    color: #f58319;
+  }
+  .navigation {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: block !important;
+  }
+  .mobile-nav {
+    display: none;
+    background-color: #f58319;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    margin-top: 4em;
+  }
+  .mobile-nav__menu {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
+    height: 100%;
+    gap: 2em;
+    position: relative;
+  }
+  .mobile-nav__menu a {
+    color: inherit;
+  }
+  .mobile-nav__menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  .services {
+    width: 100%;
+    display: flex;
+    background-color: #000;
+    margin-top: 4em;
+  }
+  .services-background img {
+    display: none;
+  }
+  .services-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em 0;
+  }
+  .services-items .services-item {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .prices {
+    width: 100%;
+    margin: 1em auto;
+  }
+  .prices-btn {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .prices-btn a {
+    font-size: 0.8em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
