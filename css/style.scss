@@ -335,6 +335,7 @@ a:active {
     &-details {
         width: 100%;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         margin: 2em auto;
 
@@ -548,41 +549,36 @@ a:active {
             height: 100%;
         }
     }
-}
 
     .owl-nav {
         height: 10em;
     }
-
-// Storage
-
+    
+    // Storage
+    
     .storage {
         margin: 2em auto;
         width: 90%;
-
-        h3 {
-            font-size: 1.2em;
-        }
-
+    
         &-details {
             width: 100%;
             display: flex;
             flex-direction: column;
-
+    
             &__item {
                 width: 100%;
             }
         }
     }
-
-// Stages
-
-
+    
+    // Stages
+    
+    
     .stages {
         width: 80%;
         display: flex;
         flex-direction: column;
-
+    
         &-item {
             width: 100%;
             display: flex;
@@ -591,3 +587,4 @@ a:active {
             align-items: center;
         }
     }
+}

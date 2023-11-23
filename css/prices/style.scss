@@ -47,14 +47,19 @@ a:active {
         align-items: center;
 
         &__menu {
+            width: 60%;
             display: flex;
             flex-direction: row;
-            gap: 2em;
+            justify-content: space-around;
             align-items: center;
             li {
                 list-style-type: none;
             }
         }
+    }
+
+    .burger {
+        display: none;
     }
 }
 
@@ -116,6 +121,12 @@ a:active {
             }
         }
     }
+}
+
+// Mobile navigation
+
+.mobile-nav {
+    display: none;
 }
 
 // Price list section
