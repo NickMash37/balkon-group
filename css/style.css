@@ -416,7 +416,6 @@ a:active {
     display: flex;
     flex-direction: column;
     padding: 2em 1em;
-    height: 100%;
     gap: 2em;
     position: relative;
   }
@@ -427,6 +426,36 @@ a:active {
     list-style-type: none;
     text-transform: uppercase;
     font-size: 1.5em;
+  }
+  .mobile-nav__contacts {
+    width: 90%;
+    margin: 10em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .mobile-nav__contacts .phone {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+    align-items: center;
+  }
+  .mobile-nav__contacts .address {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+  }
+  .mobile-nav__contacts i {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  .mobile-nav__contacts a {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  .mobile-nav__contacts span {
+    color: #fff;
+    font-size: 1.3em;
   }
   .services {
     width: 100%;

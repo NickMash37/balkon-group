@@ -224,7 +224,6 @@ a:active {
             display: flex;
             flex-direction: column;
             padding: 2em 1em;
-            height: 100%;
             gap: 2em;
             position: relative;
 
@@ -238,20 +237,56 @@ a:active {
                 font-size: 1.5em;
             }
         }
+
+        &__contacts {
+            width: 90%;
+            margin: 10em auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+            .phone {
+                display: flex;
+                width: 100%;
+                gap: 1em;
+                align-items: center;
+            }
+
+            .address {
+                display: flex;
+                width: 100%;
+                gap: 1em;
+            }
+
+            i {
+                color: #fff;
+                font-size: 1.5em;
+            }
+
+            a {
+                color: #fff;
+                font-size: 1.5em;
+            }
+
+            span {
+                color: #fff;
+                font-size: 1.3em;
+            }
+        }
     }
 
-    .invest {
-        width: 90%;
-        margin: 4em auto;
-        display: flex;
-        flex-direction: column;
+        .invest {
+            width: 90%;
+            margin: 4em auto;
+            display: flex;
+            flex-direction: column;
 
-        &-img {
-            display: none;
-        }
+            &-img {
+                display: none;
+            }
 
-        &-text {
-            width: 100%;
+            &-text {
+                width: 100%;
+            }
         }
     }
-}
