@@ -107,6 +107,30 @@ a:active {
   display: none;
 }
 
+.services-text {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  position: relative;
+  top: 2em;
+  text-align: center;
+  margin: auto;
+}
+.services-text h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.services-text h2:after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: 0.5em auto;
+  height: 2px;
+  background-color: #f58319;
+}
+.services-text p {
+  color: #fff;
+}
 .services-background {
   width: 100%;
   overflow: hidden;
@@ -123,7 +147,7 @@ a:active {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .services-item {
   position: relative;
@@ -407,8 +431,16 @@ a:active {
   .services {
     width: 100%;
     display: flex;
+    flex-direction: column;
     background-color: #000;
     margin-top: 4em;
+  }
+  .services-text {
+    width: 80%;
+    margin-bottom: 2em;
+  }
+  .services-text h2 {
+    font-size: 1.2em;
   }
   .services-background img {
     display: none;
@@ -425,6 +457,7 @@ a:active {
   .services-items .services-item {
     margin: 0 auto;
     width: 80%;
+    height: 50%;
   }
   .prices {
     width: 100%;
@@ -434,6 +467,9 @@ a:active {
     height: 100%;
   }
   .prices-box__item h3 {
+    height: 100%;
+  }
+  .prices-box__item p {
     height: 100%;
   }
   .prices-btn {
@@ -452,6 +488,9 @@ a:active {
   .storage {
     margin: 2em auto;
     width: 90%;
+  }
+  .storage h3 {
+    height: 100%;
   }
   .storage-details {
     width: 100%;

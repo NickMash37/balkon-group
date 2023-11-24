@@ -132,6 +132,34 @@ a:active {
 // Services section
 
 .services {
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        position: relative;
+        top: 2em;
+        text-align: center;
+        margin: auto;
+
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+
+            &:after {
+                content: '';
+                display: block;
+                width: 80%;
+                margin: 0.5em auto;
+                height: 2px;
+                background-color: $mainColor;
+            }
+        }
+
+        p {
+            color: #fff;
+        }
+    }
     
 
     &-background {
@@ -152,7 +180,7 @@ a:active {
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0 auto;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     &-item {
@@ -496,8 +524,18 @@ a:active {
     .services {
         width: 100%;
         display: flex;
+        flex-direction: column;
         background-color: #000;
         margin-top: 4em;
+
+        &-text {
+            width: 80%;
+            margin-bottom: 2em;
+
+            h2 {
+                font-size: 1.2em;
+            }
+        }
 
         &-background {
             img {
@@ -517,6 +555,7 @@ a:active {
             .services-item {
                 margin: 0 auto;
                 width: 80%;
+                height: 50%;
             }
         }
     }
@@ -532,6 +571,10 @@ a:active {
                 height: 100%;
 
                 h3 {
+                    height: 100%;
+                }
+
+                p {
                     height: 100%;
                 }
             }
@@ -559,6 +602,10 @@ a:active {
     .storage {
         margin: 2em auto;
         width: 90%;
+
+        h3 {
+            height: 100%;
+        }
     
         &-details {
             width: 100%;
