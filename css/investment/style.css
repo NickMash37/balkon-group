@@ -193,6 +193,18 @@ a:active {
     text-transform: uppercase;
     font-size: 1.5em;
   }
+  .invest {
+    width: 90%;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .invest-img {
+    display: none;
+  }
+  .invest-text {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

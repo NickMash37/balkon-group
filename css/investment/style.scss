@@ -239,4 +239,19 @@ a:active {
             }
         }
     }
+
+    .invest {
+        width: 90%;
+        margin: 4em auto;
+        display: flex;
+        flex-direction: column;
+
+        &-img {
+            display: none;
+        }
+
+        &-text {
+            width: 100%;
+        }
+    }
 }

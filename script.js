@@ -8,7 +8,6 @@ burger.addEventListener('click', () => {
 
 menuLinks.forEach(link => {
     link.addEventListener('click', () => {
-        console.log('Works!');
         mobileMenu.classList.remove('visible')
     });
   });
