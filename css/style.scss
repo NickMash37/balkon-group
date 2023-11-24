@@ -568,10 +568,11 @@ a:active {
 
         &-box {
             &__item {
-                height: 100%;
+                min-height: 100%;
 
                 h3 {
                     height: 100%;
+                    margin-bottom: 1em;
                 }
 
                 p {
@@ -588,8 +589,15 @@ a:active {
                 font-size: 0.8em;
             }
         }
+
         .item-cost {
             height: 100%;
+            font-size: 1.3em;
+            margin-top: 0;
+        }
+
+        .item-desc {
+            margin-top: 0;
         }
     }
 
@@ -605,6 +613,7 @@ a:active {
 
         h3 {
             height: 100%;
+            font-size: 1.5em;
         }
     
         &-details {
@@ -614,6 +623,14 @@ a:active {
     
             &__item {
                 width: 100%;
+                
+                i {
+                    font-size: 1.5em;
+                }
+
+                p {
+                    margin: 1em auto;
+                }
             }
         }
     }

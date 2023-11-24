@@ -464,10 +464,11 @@ a:active {
     margin: 1em auto;
   }
   .prices-box__item {
-    height: 100%;
+    min-height: 100%;
   }
   .prices-box__item h3 {
     height: 100%;
+    margin-bottom: 1em;
   }
   .prices-box__item p {
     height: 100%;
@@ -481,6 +482,11 @@ a:active {
   }
   .prices .item-cost {
     height: 100%;
+    font-size: 1.3em;
+    margin-top: 0;
+  }
+  .prices .item-desc {
+    margin-top: 0;
   }
   .owl-nav {
     height: 10em;
@@ -491,6 +497,7 @@ a:active {
   }
   .storage h3 {
     height: 100%;
+    font-size: 1.5em;
   }
   .storage-details {
     width: 100%;
@@ -499,6 +506,12 @@ a:active {
   }
   .storage-details__item {
     width: 100%;
+  }
+  .storage-details__item i {
+    font-size: 1.5em;
+  }
+  .storage-details__item p {
+    margin: 1em auto;
   }
   .stages {
     width: 80%;
